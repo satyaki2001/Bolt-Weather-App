@@ -1,18 +1,22 @@
+body{
+  background-color: rgb(170, 254, 254);;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-group{
+  margin-top: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contact-title{
+  margin-top: 40px;
 }
 
+#accordionFlushExample{
+  margin-top: 100px !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +28,32 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar{
+  background-color: rgb(170, 254, 254);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#contact-form{
+  margin-top: 60px;
+  text-align: left;
 }
+
+.fa-location-dot{
+  position: relative;
+animation: mymove 0.9s infinite;
+}
+
+@keyframes mymove {
+  from {bottom: 0px;}
+  to {top: 30px;}
+}
+
+.city-name{
+  font-family:  'Nunito Sans', sans-serif;
+  font-size:80px !important;
+}
+
+.temp{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 50px;
+}
+
